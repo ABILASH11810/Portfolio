@@ -6,11 +6,16 @@
   padding: 0 2rem;
 }
 
-/* Responsive Images */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+html {
+  font-size: 90%; 
+}
+
+body {
+  transform: scale(0.9); 
+  transform-origin: top center; 
+  width: 111.11%; 
+  margin: 0;
+  padding: 0;
 }
 body {
   transform: scale(0.9);
@@ -312,4 +317,5 @@ h3 {
   .education-item,
   .project-item { padding: 1rem; }
 }
+
 
