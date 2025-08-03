@@ -12,7 +12,11 @@ img {
   height: auto;
   display: block;
 }
-
+body {
+  transform: scale(0.9);
+  transform-origin: top left;
+  width: 111.11%; /* Ensures no cutoff and maintains layout proportion */
+}
 /* ===== KEYFRAME ANIMATIONS ===== */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(50px); }
@@ -308,3 +312,4 @@ h3 {
   .education-item,
   .project-item { padding: 1rem; }
 }
+
