@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="theme-color" content="#2D68C4">
+    <meta name="description" content="Abilash G – Data Analyst, ML Engineer and Designer. Projects, experience and contact details.">
+    <title>ABILASH G</title>
+    <link rel="icon" href="logo-img.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Inter:wght@300;400;500&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="logo">
+            <img src="logo-img.png" alt="Abilash logo">
+            <span>Abilash</span>
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#builds">Builds</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="hello">Hello, I'm</span>
+            <h1>ABILASH G</h1>
+            <p>Data Analyst. ML Engineer.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn">Let's Connect →</a>
+                <a href="Abilash.pdf" download="Abilash.pdf" class="btn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>
+                    Resume
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.png" alt="Abilash illustration" onerror="this.onerror=null;this.src='logo-img.png'">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content reveal-left">
+            <span class="about-tag">ABOUT ME</span>
+            <div class="underline"></div>
+            <p>
+                AI and Data Science graduate skilled in Python, SQL, Machine Learning and Business
+                Intelligence tools, with hands-on experience from academic projects and a machine learning project
+                internship. I clean and analyze data, build predictive models, and develop dashboards and KPI reports
+                that turn raw data into actionable business insights.
+            </p>
+            <p>
+                Seeking an entry-level Data Analyst role to apply strong analytical and
+                programming skills in a fast-paced, data-driven environment.
+            </p>
+        </div>
+
+        <div class="about-image-wrapper reveal-right">
+            <div class="circle-large"></div>
+            <div class="circle-small"></div>
+            <div class="circle-outline"></div>
+            <div class="circle-outline-two"></div>
+            <img src="about-person.png" alt="Abilash portrait illustration">
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="experience">
+        <h2 class="experience-heading reveal">Experience</h2>
+
+        <div class="exp-grid">
+
+            <article class="exp-card reveal">
+                <div class="exp-head">
+                    <div class="exp-logo exp-logo--brand">
+                        <img src="tcsion.png" alt="TCS iON logo" width="480" height="127" loading="lazy">
+                    </div>
+                    <div class="exp-meta">
+                        <span class="exp-date">June 2026 – Sep 2026</span>
+                        <h3>TCS iON RIO 125</h3>
+                        <p class="exp-role">Project Intern · Sentiment Analysis Automation</p>
+                    </div>
+                </div>
+                <ul class="exp-list">
+                    <li>Built an end-to-end sentiment analysis pipeline to automate customer feedback classification, using text preprocessing, tokenization and TF-IDF feature extraction.</li>
+                    <li>Corrected class imbalance in the training data with resampling techniques, improving the model's ability to generalize across sentiment categories.</li>
+                    <li>Evaluated and fine-tuned the model using Precision, Recall and F1-Score, iteratively adjusting parameters to improve accuracy on unseen feedback data.</li>
+                </ul>
+                <div class="chips">
+                    <span>Python</span><span>NLP</span><span>TF-IDF</span><span>Scikit-learn</span><span>Resampling</span><span>F1-Score</span>
+                </div>
+                <a class="card-link" href="https://www.kaggle.com/code/abilash181004/automate-sentiment-analysis-of-textual-comments-an" target="_blank" rel="noopener noreferrer" aria-label="View the TCS iON sentiment analysis project on Kaggle">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                    View on Kaggle
+                </a>
+            </article>
+
+            <article class="exp-card reveal">
+                <div class="exp-head">
+                    <div class="exp-logo">
+                        <img src="Googleanalysis.png" alt="Google Play Store analytics dashboard illustration" width="480" height="432" loading="lazy">
+                    </div>
+                    <div class="exp-meta">
+                        <span class="exp-date">Aug 2025 – Sep 2025</span>
+                        <h3>Null Class</h3>
+                        <p class="exp-role">Data Analyst Intern</p>
+                    </div>
+                </div>
+                <ul class="exp-list">
+                    <li>Analyzed Google Play Store app and user review data using Python, Pandas, and NumPy, performing data cleaning, preprocessing, and feature engineering.</li>
+                    <li>Built interactive Plotly visualizations and an HTML analytics dashboard to analyze app ratings, installs, reviews, revenue, and user sentiment.</li>
+                </ul>
+                <div class="chips">
+                    <span>Python</span><span>Pandas</span><span>NumPy</span><span>Plotly</span><span>HTML</span>
+                </div>
+                <a class="card-link" href="https://github.com/ABILASH11810/Google-Play-Store-Real-time-Data-Analysis-using-Python" target="_blank" rel="noopener noreferrer" aria-label="View the Google Play Store analytics project on GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+                    View on GitHub
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- BUILDS -->
+    <section id="builds" class="builds">
+        <h2 class="builds-heading reveal">Builds</h2>
+
+        <div class="builds-container" id="buildsTrack">
+
+            <article class="service-card">
+                <div class="service-icon">
+                    <img src="EA.png" alt="Easy Analytics icon" width="480" height="480" loading="lazy">
+                </div>
+                <h3>Easy Analytics</h3>
+                <p>A no-code Streamlit web app where non-technical users upload CSV/Excel files and instantly get interactive charts and summary statistics, with an automated Pandas cleaning engine.</p>
+                <div class="chips"><span>Streamlit</span><span>Pandas</span><span>Plotly</span></div>
+                <a class="card-link" href="https://github.com/ABILASH11810/EasyAnalytics" target="_blank" rel="noopener noreferrer" aria-label="View Easy Analytics on GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+                    View on GitHub
+                </a>
+                <div class="service-line"></div>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">
+                    <img src="powerbi.png" alt="Power BI logo" width="361" height="480" loading="lazy">
+                </div>
+                <h3>Power BI Analytics Dashboards</h3>
+                <p>Interactive dashboards tracking sales, revenue, order volume and customer behavior in one real-time view, plus a social media dashboard with drill-down reports for stakeholders.</p>
+                <div class="chips"><span>Power BI</span><span>KPI Reporting</span><span>DAX</span></div>
+                <a class="card-link" href="https://github.com/ABILASH11810/Power_Bi" target="_blank" rel="noopener noreferrer" aria-label="View Power BI Analytics Dashboards on GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+                    View on GitHub
+                </a>
+                <div class="service-line"></div>
+            </article>
+
+            <article class="service-card">
+                <div class="service-icon">
+                    <img src="AE.png" alt="Adobe After Effects icon" width="480" height="480" loading="lazy">
+                </div>
+                <h3>AI-Driven VFX Compositing Pipeline</h3>
+                <p>An AI pipeline integrated with Adobe After Effects that automates video matting, camera tracking, depth estimation and compositing using MODNet, SfM and Depth Anything V2.</p>
+                <div class="chips"><span>PyTorch</span><span>OpenCV</span><span>MODNet</span><span>CEP</span></div>
+                <a class="card-link" href="https://github.com/ABILASH11810/AI-based-VFX-composting" target="_blank" rel="noopener noreferrer" aria-label="View AI-Driven VFX Compositing Pipeline on GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+                    View on GitHub
+                </a>
+                <div class="service-line"></div>
+            </article>
+
+        </div>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+
+        <h2 class="contact-heading reveal">Let's Connect!</h2>
+
+        <div class="contact-grid">
+
+            <!-- TODO: replace YOUR-USERNAME with your real LinkedIn username -->
+            <a class="contact-tile reveal" href="https://www.linkedin.com/in/abilash04/" target="_blank" rel="noopener">
+                <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.82-2.05 3.75-2.05 4 0 4.74 2.64 4.74 6.07V21h-4v-4.94c0-1.18-.02-2.7-1.65-2.7-1.65 0-1.9 1.29-1.9 2.62V21h-4z"/></svg>
+                </span>
+                <span class="contact-text"><strong>LinkedIn</strong><small>Abilash G</small></span>
+            </a>
+
+            <a class="contact-tile reveal" href="mailto:abilash1516@gmail.com">
+                <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                </span>
+                <span class="contact-text"><strong>Mail</strong><small>abilash1516@gmail.com</small></span>
+            </a>
+
+            <a class="contact-tile reveal" href="https://github.com/ABILASH11810" target="_blank" rel="noopener">
+                <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+                </span>
+                <span class="contact-text"><strong>GitHub</strong><small>View my code</small></span>
+            </a>
+
+            <a class="contact-tile reveal" href="tel:+917200661178">
+                <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+                </span>
+                <span class="contact-text"><strong>Phone</strong><small>+91 72006 61178</small></span>
+            </a>
+
+        </div>
+
+        <!-- FOOTER -->
+        <div class="portfolio-footer">
+            <div class="footer-name">
+                <img src="logo-img.png" alt="Abilash logo">
+                <span>Abilash G</span>
+            </div>
+            <div class="footer-center">
+                <p>Analyze • Design • Build</p>
+                <p>© 2026 All Rights Reserved</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        const $ = (s, c = document) => c.querySelector(s);
+        const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+
+        const navbar = $('#navbar'), bar = $('#scrollProgress');
+        const sections = $$('section[id]'), links = $$('.nav-links a');
+        let ticking = false;
+
+        function onScroll() {
+            const y = window.scrollY;
+            const max = document.documentElement.scrollHeight - window.innerHeight;
+            navbar.classList.toggle('scrolled', y > 60);
+            bar.style.transform = 'scaleX(' + (max > 0 ? y / max : 0) + ')';
+
+            let current = sections[0].id;
+            sections.forEach(sec => { if (y >= sec.offsetTop - 160) current = sec.id; });
+            if (y + window.innerHeight >= document.documentElement.scrollHeight - 4) current = 'contact';
+            links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + current));
+            ticking = false;
+        }
+        window.addEventListener('scroll', () => {
+            if (!ticking) { requestAnimationFrame(onScroll); ticking = true; }
+        }, { passive: true });
+        onScroll();
+
+        const hamburger = $('#hamburger'), navLinks = $('#navLinks');
+        function setMenu(open) {
+            navLinks.classList.toggle('open', open);
+            hamburger.classList.toggle('active', open);
+            hamburger.setAttribute('aria-expanded', open);
+        }
+        hamburger.addEventListener('click', e => { e.stopPropagation(); setMenu(!navLinks.classList.contains('open')); });
+        links.forEach(l => l.addEventListener('click', () => setMenu(false)));
+        document.addEventListener('click', e => { if (!navLinks.contains(e.target)) setMenu(false); });
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+
+        const NAV_OFFSET = 74;
+
+        const destination = target => target
+            ? Math.max(
+                0,
+                target.getBoundingClientRect().top +
+                window.scrollY -
+                NAV_OFFSET
+            )
+            : 0;
+
+        function smoothScrollTo(target) {
+            const start = window.scrollY;
+
+            const end = target
+                ? target.getBoundingClientRect().top + window.scrollY - NAV_OFFSET
+                : 0;
+
+            const distance = end - start;
+            const duration = 1000; 
+
+            const startTime = performance.now();
+
+            function animate(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+
+                const eased = progress < 0.5
+                    ? 4 * progress * progress * progress
+                    : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+
+                window.scrollTo(0, start + distance * eased);
+
+                if (progress < 1) {
+                    requestAnimationFrame(animate);
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        $$('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const hash = a.getAttribute('href');
+
+                if (hash.length < 2) return;
+
+                const target =
+                    hash === '#home'
+                        ? null
+                        : document.getElementById(hash.slice(1));
+
+                if (hash !== '#home' && !target) return;
+
+                e.preventDefault();
+
+                smoothScrollTo(target);
+
+                try {
+                    history.pushState(null, '', hash);
+                } catch (err) {
+                    /* ignore */
+                }
+            });
+        });
+
+        const io = new IntersectionObserver(entries => {
+            entries.forEach(en => {
+                if (!en.isIntersecting) return;
+                const el = en.target;
+                el.classList.add('visible');
+                el.addEventListener('transitionend', function done(ev) {
+                    if (ev.target === el && ev.propertyName === 'opacity') {
+                        el.style.transitionDelay = '';
+                        el.removeEventListener('transitionend', done);
+                    }
+                });
+                io.unobserve(el);
+            });
+        }, { threshold: 0.12 });
+
+        $$('.reveal, .reveal-left, .reveal-right, .service-card').forEach(el => io.observe(el));
+        const stagger = (els, step) => els.forEach((el, i) => { el.style.transitionDelay = (i * step) + 's'; });
+        stagger($$('.exp-card'), 0.12);
+        stagger($$('.service-card'), 0.1);
+        stagger($$('.contact-tile'), 0.1);
+
+        const about = $('.about');
+        new IntersectionObserver((en, ob) => {
+            if (en[0].isIntersecting) { about.classList.add('visible-section'); ob.disconnect(); }
+        }, { threshold: 0.2 }).observe(about);
+
+        (function () {
+            const track = $('#buildsTrack'), dotsEl = $('#carouselDots');
+            const cards = $$('.service-card', track);
+            let cur = 0;
+            const dots = cards.map((_, i) => {
+                const b = document.createElement('button');
+                b.className = 'carousel-dot' + (i ? '' : ' active');
+                b.setAttribute('aria-label', 'Go to project ' + (i + 1));
+                b.addEventListener('click', () => {
+                    const c = cards[i];
+                    track.scrollTo({ left: c.offsetLeft - (track.clientWidth - c.offsetWidth) / 2, behavior: 'smooth' });
+                });
+                dotsEl.appendChild(b);
+                return b;
+            });
+            track.addEventListener('scroll', () => {
+                const mid = track.scrollLeft + track.clientWidth / 2;
+                let best = 0, min = Infinity;
+                cards.forEach((c, i) => {
+                    const d = Math.abs(c.offsetLeft + c.offsetWidth / 2 - mid);
+                    if (d < min) { min = d; best = i; }
+                });
+                if (best !== cur) { dots[cur].classList.remove('active'); dots[best].classList.add('active'); cur = best; }
+            }, { passive: true });
+        })();
+    </script>
+
+</body>
+</html>
